@@ -1,0 +1,25 @@
+importFrom("graphics", "legend")
+importFrom("stats", "coef", "na.omit", "nls")
+importFrom("utils", "write.table")
+import(methods)
+import(raster)
+import(sp)
+import(udunits2)
+exportClasses(inputGlacierSMBM)
+exportMethods(
+    "debrisCoveredIceMelt",
+    "debrisThicknessEmp",
+    "debrisThicknessFit",
+    "debrisThicknessPhy",
+    "extractRasterValues",
+    "glacialMelt",
+    "glacierSMBM",
+    "iceMelt",
+    "interpolateAirP",
+    "interpolateAirT",
+    "resampleStack",
+    "snowFall",
+    "snowMelt",
+    "unitConv"
+)
+

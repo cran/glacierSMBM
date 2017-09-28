@@ -1,0 +1,15 @@
+Package: glacierSMBM
+Type: Package
+Title: Glacier Surface Mass Balance Model
+Version: 0.1
+Date: 2017-09-26
+Author: Alexander R. Groos [cre, aut], Christoph Mayer [ctb]
+Maintainer: Alexander R. Groos <alexander.groos@giub.unibe.ch>
+Description: A fully distributed glacier surface mass balance model developed for the simulation of accumulation and ablation processes on debris-free as well as debris-covered glaciers.
+License: GPL (>= 3)
+Depends: R (>= 2.10), methods, raster, sp, udunits2
+LazyData: true
+NeedsCompilation: no
+Packaged: 2017-09-28 11:34:38 UTC; alexandergroos
+Repository: CRAN
+Date/Publication: 2017-09-28 20:52:27 UTC
